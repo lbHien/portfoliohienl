@@ -107,8 +107,8 @@ footer {
   }
 
   img {
-    max-width: 700px;
-    height: auto;
+    max-width: 200px;
+    height: 100PX;
   }body {
     font-family: Arial, sans-serif;
     display: flex;
