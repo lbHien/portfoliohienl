@@ -13,4 +13,22 @@ window.onload = function() {
         });
     });
 };
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    // Obtenir les valeurs des champs
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
+
+    // Valider les champs (simple exemple)
+    if (name && email && message) {
+        document.getElementById("confirmationMessage").textContent = "Merci, votre message a bien été envoyé !";
+        
+        // Effacer les champs après soumission
+        document.getElementById("contactForm").reset();
+    } else {
+        document.getElementById("confirmationMessage").textContent = "Veuillez remplir tous les champs.";
+    }
+});
 
