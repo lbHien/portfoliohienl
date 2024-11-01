@@ -1,14 +1,14 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(255, 0, 0); 
+    color:  black;
     margin: 10;
     padding: 10;
     background-color: rgb(204, 215, 218);
 }
 
 header {
-    background-color: rgba(124, 192, 240, 0.927);
-    color: white;;
+    background-color: #116dca; 
+    color:  #0ee9e9;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -36,7 +36,7 @@ nav ul li a {
 
 main {
     padding: 20px;
-     color: cornflowerblue;
+     color: crgba(0, 0, 0, 0.591);
     text-align: center;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     font-family: "Arial", sans-serif;
